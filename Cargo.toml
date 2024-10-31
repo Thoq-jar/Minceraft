@@ -1,0 +1,9 @@
+[package]
+name = "Minceraft"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.12"
+noise = "0.8"
+crossbeam-channel = "0.5"
