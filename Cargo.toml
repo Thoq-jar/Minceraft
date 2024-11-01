@@ -4,6 +4,12 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-bevy = "0.12"
+bevy = { version = "0.12", features = ["dynamic_linking", "wayland"] }
 noise = "0.8"
 crossbeam-channel = "0.5"
+strum = "0.25"
+strum_macros = "0.25"
+rand = "0.8"
+
+[build-dependencies]
+chrono = "0.4"

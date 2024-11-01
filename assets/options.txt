@@ -1,0 +1,6 @@
+forward=W
+backwards=S
+strafe_left=A
+strafe_right=D
+jump=Space
+sprint=R
